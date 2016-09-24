@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Nerds studio</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:500,300" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="centering">
-        <div class=navigation>
+        <div class="navigation clearfix">
           <div class="main-logo">
-            <img src="../img/index-logo.png" alt="nerds">
+            <img src="img/logo.png" alt="nerds">
           </div>
           <nav class="main-navigation">
             <ul>
@@ -24,15 +24,18 @@
           </nav>
         </div>
         <div class="slider">
+          <input type="radio" id="btn-1" name="toggle">
+          <input type="radio" id="btn-2" name="toggle">
+          <input type="radio" id="btn-3" name="toggle">
           <div class="slider-controls">
-            <i></i>
-            <i></i>
-            <i></i>
+            <label for="btn-1"></label>
+            <label for="btn-2"></label>
+            <label for="btn-3"></label>
           </div>
           <div class="slides">
             <div class="slide">
               <div class="slide-text">
-                <b>Долго, дорого, скрупулезно.<b>
+                <b>Долго, дорого,<br> скрупулезно.</b>
                 <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
                 <a class="btn" href="#">Узнать больше</a>
               </div>
